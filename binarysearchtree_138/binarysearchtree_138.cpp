@@ -62,7 +62,12 @@ public:
 		parent = NULL;						// Langkah 
 		while ((currentNode != NULL) && (currentNode->info != element))		// Langkah 3.
 		{
-			
+			parent = currentNode;							// Langkah 3.a
+			if (element < currentNode->info)
+				currentNode = currentNode->leftchild;		// Langkah 3.b
+			else
+				currentNode = currentNode->rightchild;		// Langkah 3.c
+		}
 	}
 
 
