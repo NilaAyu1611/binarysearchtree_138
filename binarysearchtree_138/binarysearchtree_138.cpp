@@ -37,5 +37,7 @@ public:
 
 		Node* parent = NULL;
 		Node* currentNode = NULL;
+		search(element, parent, currentNode);	// Langkah 4. Locate the node which will be the parent of the node to be inserted
+
 		
 };
