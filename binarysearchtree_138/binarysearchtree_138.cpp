@@ -34,5 +34,7 @@ public:
 		newNode->info = element;		// Langkah 2. Assign value to the data field of the new node
 		newNode->leftchild = NULL;		// Langkah 3.  Make the left child of the new node pint to NULL
 		newNode->rightchild = NULL;		// Langkah 3. Make the right child of the new node point to NULL
-	}
+
+		Node* parent = NULL;
+		
 };
