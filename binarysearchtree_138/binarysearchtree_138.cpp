@@ -32,5 +32,6 @@ public:
 	{
 		Node* newNode = new Node(element, NULL, NULL);		// Langkah 1. Allocate memory for the new node
 		newNode->info = element;		// Langkah 2. Assign value to the data field of the new node
+		newNode->leftchild = NULL;		// Langkah 3.  Make the left child of the new node pint to NULL
 	}
 };
