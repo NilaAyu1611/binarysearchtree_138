@@ -45,6 +45,9 @@ public:
 			return;				// Langkah 5.b Exit
 		}
 		
+		if (element < parent->info)		// Langkah 6. If the value in the data field of the new node is greater than of the parent
+		{
+		
 
 		
 };
