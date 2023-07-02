@@ -47,6 +47,8 @@ public:
 		
 		if (element < parent->info)		// Langkah 6. If the value in the data field of the new node is greater than of the parent
 		{
+			parent->leftchild = newNode;	// Langkah 6.a. Make the left child of the parent point to the new node
+		}
 		
 
 		
